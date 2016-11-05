@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acorn.cakeviewwidget"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ico_a_2"
+        android:label="@string/app_name"
+
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name="com.watsonapi_learning.wheee.watsonapi_learning.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.watsonapi_learning.wheee.watsonapi_learning.ResultActivity"></activity>
+        <activity android:name="com.watsonapi_learning.wheee.watsonapi_learning.Text2speechActivity"></activity>
+        <activity
+            android:name="com.watsonapi_learning.wheee.watsonapi_learning.PhotoActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <activity
+            android:name="com.watsonapi_learning.wheee.watsonapi_learning.SelectPicActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <activity
+            android:name="com.watsonapi_learning.wheee.watsonapi_learning.MyDialog"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <activity
+            android:name="com.watsonapi_learning.wheee.watsonapi_learning.Fankui"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <activity
+            android:name="com.watsonapi_learning.wheee.watsonapi_learning.MyInfo"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <activity
+            android:name="com.watsonapi_learning.wheee.watsonapi_learning.TranslatorActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+    </application>
+
+</manifest>

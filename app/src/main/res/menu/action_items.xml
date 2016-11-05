@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="schemas.android.com/tools"
+    tools:context="com.itswctime.wheee.myapplication11.MainActivity">
+    <item
+        android:id="@+id/item_1"
+        android:icon="@drawable/fankui"
+        android:title="反馈"
+        app:showAsAction="ifRoom|withText"></item>
+    <item
+        android:id="@+id/item_2"
+        android:icon="@drawable/fankui"
+        android:title="设置"></item>
+    <item
+        android:id="@+id/item_3"
+        android:icon="@drawable/fankui"
+        android:title="版本信息"></item>
+    <item
+        android:id="@+id/item_4"
+
+        android:title="开发人员[^_-]"></item>
+
+
+</menu>

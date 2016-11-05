@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diy_bg">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_bn">
+
+        <ImageView
+            android:id="@+id/iv_ico2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/wc_52_2" />
+
+        <TextView
+
+            android:id="@+id/tv_title2"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/iv_ico2"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_bn"
+        android:hint="写出你的想法吧\r\n由于作者目前处于学习阶段没有服务器所以，你会介意通过短信方式以完成反馈功能吗？\r\n\n"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/bn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/et_comment"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_bn"
+        android:text="提交" />
+
+
+</RelativeLayout>

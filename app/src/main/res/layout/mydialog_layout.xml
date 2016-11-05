@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/diy_bg">
+
+    <RelativeLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_bn">
+
+        <ImageView
+            android:id="@+id/iv_ico1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ceng" />
+
+        <TextView
+
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/iv_ico1"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_1"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/dialog_bn"
+        android:text="分享一下？"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/bn_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ll_1"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dialog_bn"
+        android:text="好的" />
+
+    <Button
+        android:id="@+id/bn_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ll_1"
+        android:background="@drawable/dialog_bn"
+        android:text="不了" />
+
+
+</RelativeLayout>

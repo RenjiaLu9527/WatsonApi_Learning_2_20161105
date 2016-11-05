@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/diy_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_restitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:background="#DAA520"
+        android:text="hi!nice to see you! "
+        android:textColor="#228B22"
+        android:textSize="12dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <com.watsonapi_learning.wheee.watsonapi_learning.CakeSurfaceView
+            android:id="@+id/cakeSurfaceView2"
+            android:layout_width="260dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp" />
+
+        <TextView
+
+            android:id="@+id/tv_null"
+            android:layout_width="fill_parent"
+            android:layout_height="5px"
+            android:text="\n"
+            android:layout_below="@+id/cakeSurfaceView2"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/tv_null"
+            android:layout_centerHorizontal="true"
+
+            android:text="--"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+       
+    </RelativeLayout>
+
+</LinearLayout>
